@@ -1,0 +1,6 @@
+l=[33,64,67,23,95,86,36,75,45]
+max=1
+for i in l:
+    if(i>max):
+        max=i
+print(max)
