@@ -1,0 +1,4 @@
+a1=[52,7,95,77,65,42,35]
+a2=a1.copy()
+a2.remove(max(a2))
+print(max(a2))
