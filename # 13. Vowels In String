@@ -1,0 +1,7 @@
+a=input('enter the string:')
+vowels=['a','e','i','o','u']
+ans=0
+for i in a:
+    if(i in vowels):
+        ans+=1
+print(ans)
