@@ -1,0 +1,6 @@
+s='madam'
+ans=s[::-1]
+if s==ans:
+	print(s,'is palindrome')
+else:
+	print(s,"is not palindrome")
