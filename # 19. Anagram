@@ -1,0 +1,8 @@
+str1="act"
+str2="cat"
+str1_sort=sorted(str1)
+str2_sort=sorted(str2)
+if str1_sort == str2_sort:
+    print("string is anagram")
+else:
+    print("string is not anagram")
