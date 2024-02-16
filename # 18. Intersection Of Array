@@ -1,0 +1,8 @@
+arr1=[1,4,2,7,92,6]
+arr2=[3,6,9,7,76,2,]
+ans=[]
+for i in arr1:
+    for j in arr2:
+        if i==j:
+            ans.append(i)
+print(ans)
