@@ -1,0 +1,5 @@
+list=[5,2,5,1,6,7]
+if len(list)!=len(set(list)):
+    print("True")
+else:
+    print("False")
