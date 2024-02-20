@@ -1,0 +1,5 @@
+str1="vishwa"
+str2="vishnu"
+str1.lower()
+str2.lower()
+print(len((set(str1)).intersection(set(str2))))
