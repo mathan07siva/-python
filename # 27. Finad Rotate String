@@ -1,0 +1,7 @@
+str1='abcde'
+str2='cdeab'
+str3=str1+str1
+if str2 in str3:
+	print('True')
+else:
+	print('False')
