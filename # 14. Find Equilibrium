@@ -1,12 +1,11 @@
-a=[2,3,6,1,4]
-RightSum=0
-LeftSum=0
-for i in a:
-	RightSum=RightSum+i
-for j in a:
-	RightSum=RightSum-j
-	if(RightSum==LeftSum):
-		print('Given List is Equilibrium')
-	else:
-		LeftSum=LeftSum+j
-print('Given array is not Equilibrium')
+a = [2, 3, 6, 1, 4]
+RightSum = sum(a)
+LeftSum = 0
+for i in range(len(a)):
+    RightSum -= a[i]
+    if RightSum == LeftSum:
+        print('Given List is Equilibrium')
+        break
+    LeftSum += a[i]
+else:
+    print('Given array is not Equilibrium')
