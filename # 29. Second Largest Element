@@ -1,0 +1,4 @@
+list=[3,35,90,76,24,67]
+list.sort()
+second_largest_element=list[-2]
+print(second_largest_element)
