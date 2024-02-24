@@ -1,0 +1,7 @@
+"Find majority of element in list.which is appears in more than n/2 times.n means leanth of list"
+list=[6,5,6]
+n=len(list)/2
+for i in list:
+    if list.count(i)>n:
+        Majority_Element=i
+print(Majority_Element)
