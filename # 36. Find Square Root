@@ -1,0 +1,3 @@
+n=int(input("enter the number:"))
+ans=n**0.5	
+print("The Square Root of",n,"is:",ans)
