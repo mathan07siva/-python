@@ -1,0 +1,7 @@
+n = (int(input("Enter the maximum natural value: ")))
+i = 1
+s = 0
+while i <= n:
+     s+= i 
+     i+=1
+print("Sum of ",n," natural numbers is: ",s)
